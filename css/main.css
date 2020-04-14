@@ -1,0 +1,833 @@
+/* FRAMEWORK //////////////////// */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 14px;
+    overflow: hidden;
+  
+}
+
+main {
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    width: 375px;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    padding: 15px;
+    z-index: 1000;
+    color:#f25858;
+    
+}
+
+section {
+    position: fixed;
+    top: 60px;
+    width: 375px;
+    height: 547px;
+    background: #FFF;
+    overflow: auto;
+    padding: 20px;
+}
+
+footer {
+    width: 375px;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    color: #f25858;
+}
+
+/* SPLASH SCREEN //////////////////// */
+#splash {
+    text-align: center;
+    background-image: url(../img/splash_back.jpg);
+    background-size: cover;
+}
+
+.splashHeader {
+    width: 375px;
+    padding: 20px;
+    border-bottom: solid 5px #FFF;
+    background: grey;
+    font-size: 30px;
+    color: #FFF;
+}
+
+#splash img {
+    margin-top: 150px;
+    width: 200px;
+    height: auto;
+}
+
+.splashFooter {
+    width: 375px;
+    height: 10px;
+    position: fixed;
+    bottom: 0;
+    background: grey;
+    border-top: solid 5px #FFF;
+}
+
+/* LANDING SCREEN //////////////////// */
+#landing {
+    text-align: center;
+    background-image: url(../img/landing_back.jpg);
+    background-size: cover;
+}
+
+.landingHeader {
+    width:375px;
+    padding: 11px;
+    background: red;
+    font-size: 30px;
+    border-bottom: solid 5px #FFF;
+    
+   
+}
+
+.landingLogos {
+    border: 2px ;
+    padding: 18px;
+    padding-top: 40px;
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+
+}
+h11{
+       
+    padding: 20px;
+    font-size: 28px;
+    color: white;
+      margin-top:10px;
+
+}
+.first { 
+    right: 190px;
+    margin-top: 25px;
+    left:-90px;
+     position: fixed;
+    width:565px;
+    height: 340px;
+ 
+
+  
+   
+}
+.second{
+    position:center;
+    width: 250px;
+    height: 200px;
+    margin-top:80px;
+    padding-bottom: -10px;
+    right: 60px;
+  
+}
+.third {
+  position:fixed;
+    width: 350px;
+    height: 300px;
+    right: 60px;
+    top: 420px;
+    margin-bottom: 600px;
+    padding: 15px;
+    left: 48px;
+}
+.landingFooter {
+    width: 375px;
+    height: 10px;
+    position: fixed;
+    bottom: 0;
+    background: red;
+        border-top: solid 5px #FFF;
+}
+
+
+
+
+
+/* MENU //////////////////// */
+#menu {
+    background: red;
+}
+
+.menuHeader {
+    width: 375px;
+    padding: 10px;
+    border-bottom: solid 5px #FFF;
+    background: grey;
+    color: #FFF;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.menuBtn {
+    padding: 20px;
+    background: grey;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.menuBtn img {
+    width: 25px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+.menuBtn span {
+    display: block;
+    margin-top: 2px;
+}
+
+/* SHARED RESTAURANT //////////////////// */
+/* header/footer */
+
+header img {
+    width: 35px;
+    height: auto;
+    float: left;
+    margin-right: 60px;
+    top: 35px; 
+    margin-bottom: 50px;
+    
+   
+}
+header h1 {
+    margin: 0;
+    color: #FFF;
+}
+
+.hammm{
+    
+     width: 35px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    top: 190px; 
+    margin-top: -40px;
+    
+}
+
+
+.headerimage {
+    margin: 0;
+    color: #FFF;
+
+}
+
+footer div {
+    float: left;
+    text-align: center;
+    overflow: auto;
+    font-size: 13px;
+    padding: 12px;
+    color:black;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer img {
+    height: 25px;
+    width: auto;
+}
+
+.sectionContainer {
+    border: simple 1px ;
+    text-align:left;
+    text-decoration:inherit;
+    overflow: auto;
+    color: red;
+    font-family: sans-serif;
+    text-align:justify;
+    position: absolute;
+    
+}
+.mysectionContainer{
+    border: simple 1px ;
+    text-align:left;
+    text-decoration:inherit;
+    overflow: auto;
+    color: royalblue;
+    font-family: sans-serif;
+    text-align:justify;
+    position: absolute;  
+}
+
+h1{
+   padding-left: 50px;
+   
+
+}
+h9{
+font-size: 28px;
+color: royalblue;
+   margin-left:9px;
+margin-top: -50px;
+    font-family: sans-serif;
+}
+
+.mod2{
+    text-align: right;
+    font-family: sans-serif;
+    border: simple 1px ;
+}
+.homeImg1 {
+    width: 348px;
+    height: auto;
+    margin-top:-700px;
+    margin-top:-3px;
+    margin-right: 40px;
+    margin-left: -11px; 
+    padding-left: 5px;  
+}
+.opening {
+    width: 348px;
+    height: auto;
+    margin-top:-160px;
+    margin-top:940px;
+    margin-right: 40px;
+    margin-left: -8px; 
+    padding-left: 5px;  
+}
+.slad {
+    width: 148px;
+    height:138px;
+    margin-left: 1px; 
+    padding right: 20px;
+    border-style: inset;
+    border-color: red;
+    margin-top: 18px;
+    padding-top: 30px;
+}
+.big {
+    width: 148px;
+    height:138px;
+    margin-left: 290px; 
+    padding right: 20px;
+    border-style: inset;
+    border-color: red;
+    margin-top: -90px;
+    padding-top: 30px;
+}
+.homeImgs {
+    width: 348px;
+    height: auto;
+    margin-right: 40px;
+    margin-left: -11px; 
+    padding-left: 5px;
+    padding right: 20px;
+    
+}
+.homeImg2 {
+    width: 148px;
+    margin-right: 40px;
+    right: 40px;
+    margin-top:10px;
+    margin-left: 189px; 
+    padding right: 20px;
+    border-style: inset;
+    border-color: red;
+}
+.homeImg4 {
+    width: 148px;
+    height:138px;
+    border-style: inset;
+    border-color: red;
+    float:left;
+    margin-right: 40px;
+    right: 40px;
+    margin-bottom:230px;
+    margin-top: -209px;
+    margin-left: 2px; 
+    padding-left: 5px;
+    padding right: 20px;    
+}
+.small {
+    width: 148px;
+    height:138px;
+    border-style: inset;
+    border-color: red;
+    float:left;
+    margin-right: 40px;
+    right: 40px;
+    margin-bottom:230px;
+    margin-top: 900px;
+    margin-left: 190px; 
+    padding-left: 5px;
+    padding right: 20px;    
+}
+.burger {
+    width: 148px;
+    border-style: inset;
+    border-color: red;
+    float:left;
+    margin-right: 40px;
+    right: 40px;
+    margin-bottom:230px;
+    margin-top: -139px;
+    margin-left: 2px; 
+    padding-left: 5px;
+    padding right: 20px;  
+}
+.mod2{
+    right: 170px;
+    top: 52px;
+    position: fixed;
+    width:35px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    float: right;
+    padding-left: 180px;
+}
+.mod3{
+    right: 170px;
+    top: 52px;
+    position: fixed;
+    width:35px;
+    font-size: 18px;
+    color:red;
+    height: auto;
+    margin-top: 200px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    float: right;
+    padding-left: 180px;
+}
+h3{
+padding-left: : 50px;
+margin-top: 20px;
+    font-size: 25px;
+
+}
+.mod4{
+    right: 170px;
+    top: 52px;
+    position: fixed;
+    width:35px;
+    height: auto;
+    margin-top: 383px;
+    margin-bottom: 19px;
+    margin-left: 10px;
+    float: right;
+    padding-left: 180px;    
+}
+h3{
+    font-size: 30px; 
+}
+h7{
+   font-size: 25px;
+    color: black;
+    top: -900px;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.photo1{  
+    margin-left: 189px;
+    margin-top: 019px;
+  
+}
+.photo2{
+    margin-left: 7px;
+    margin-top:17.2px;
+}
+.deco{
+   margin-left:8px;
+   margin-top:55px;
+ 
+}
+.beauty1{
+    
+    margin-left:22px;
+    margin-top: 60px;
+}
+.beauty2{
+ margin-left:193px;
+ margin-top: 23px;
+ 
+
+}
+h2{
+      margin-left: 10px;
+      margin-top: 20px;  
+    font-size: 28px;
+}
+h4{
+   color: royalblue;
+    margin-left:20px;
+    font-size: 28px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.craft{  
+   margin-top: 275px;  
+    margin-left:6px;
+}
+.photo3{
+    margin-left:13px;   
+    margin-top:-10px;
+    border-style: solid;
+    border-color:royalblue;
+}
+.lunch{
+    margin-left:10px;   
+    margin-top:90px;
+    border-style: double;
+    border-color:yellow;
+}
+.mod10{
+    float: right;
+    margin-top: -250px; 
+}
+.hours{
+
+margin-top:70px;
+}
+h6{
+    margin-top: 280px;
+    font-family: sans-serif;
+    margin-left: -321px;
+    font-size: 25px;
+    color: royalblue;
+}
+.imgggg{
+    width:330px;
+    height: 190px;
+    background-color:sandybrown;
+    float:center;
+    margin-top: 140px;
+
+   margin-left: 2px;
+    margin-right: 50px;
+    padding-left: 15px;
+    padding-top: -480px;
+    border-style: ridge;
+    border-color:saddlebrown;
+
+}
+
+
+
+p11{
+    font-size: 15px;
+    padding-left: 30px;
+}
+
+.wineess{
+margin-left:8px;
+
+}
+.nights{
+    
+    margin-left: 28px;   
+}
+
+
+.nights2{
+
+margin-left: 28px;
+}
+.nights4{
+    
+   margin-left: 28px; 
+}
+.alt3{
+    margin-left: 35px;
+     border-style: double;
+    border-color:yellow;
+    
+}
+
+.image4{
+margin-top: 70px;
+    margin-left:-4px;
+     border-style: solid;
+    border-color:saddlebrown;
+
+
+}
+.image15{
+    
+    margin-left: 24px;
+    margin-top: 40px; 
+    border-style: double;
+    border-color:yellow;
+}
+.alt{ 
+    margin-left: -5px;
+    border-style: solid;
+    border-color:saddlebrown;
+}
+
+
+.mytext{
+margin-top:10px;
+margin-left:-4px;
+
+}
+
+.profile img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.profile p {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+}
+
+.profile p:last-child {
+    font-family: 'Hammersmith One', sans-serif !important;
+    margin-top: 5px;
+}
+
+.reviews p:last-child {
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* general specials/reservations */
+.sectionBanner {
+    width: 359px;
+    height: 67px;
+    background-size: 359px auto;
+    margin-left: -12px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 10px;
+
+}
+
+.specials .sectionContainer {
+    border-top: none;
+    text-align: left;
+}
+
+/* specials section */
+
+.altImg {
+    float: left !important;
+    margin:  !important;
+    margin-top: 25px;
+    padding-left: 3px;
+    padding-right: 10px;
+} 
+li{
+     font-size: 16px; 
+       color:black;
+    padding-left: 55px;  
+    
+    
+}
+.paragraphdish{
+    color: blue;
+}
+.about{
+margin-top:10px;
+   font-size: 28px;
+  color:saddlebrown;
+margin-left: 130px;
+
+}
+.beer{
+  margin-top:30px;  
+    margin-left:14px;
+   width:150px;
+    height: 100px;
+}
+.beer1{
+  margin-top:-29px;  
+  margin-left:14px;
+   width:150px;
+    height: 100px;
+}
+.beer4{
+  margin-top:-123px;  
+  margin-left:180px;
+   width:150px;
+    height: 139px;
+}
+.beer3{
+  margin-top:-142px;  
+    margin-left:180px;
+    width:150px;
+    height: 173.1px;
+}
+.image{
+    
+    float: right;
+    margin-top: -30px;
+    left: 12px;
+    width: 170px;
+    height: 150px;
+   
+}
+.imagemy{
+     float: left !important;
+    margin:  !important;
+    margin-top: 25px;
+    padding-left: 3px;
+    padding-right: 10px;
+    width: 170px;
+    height: 150px;
+   
+   
+}
+.paragraph{
+
+    padding-top: 62px;
+
+
+}
+
+.paragraph2  {
+margin-top:100px;
+margin-left:-99px;
+
+   
+}
+h23{
+margin-top: 20px;
+padding-top: 20px;
+}
+li{
+margin-left: -34px;
+}
+.paragraph3{
+margin-top:50px;
+margin-left:200px;
+    padding-top: 56px;
+
+   
+}
+.text{
+margin-top: 10px;   
+
+}
+
+
+/* reservations section */
+.reservations .sectionContainer {
+    border-top: none;
+    text-align: left;
+    padding: 0 10px;
+}
+
+form{
+
+     font-family: 'Quicksand', sans-serif;
+}
+label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 5px;
+
+    
+}
+.yoursectionContainer{
+color: saddlebrown;
+}
+
+input:focus, select:focus{
+    border: solid 1px red;
+    width: 100%;
+    font-size: 14px;
+    background: #FFF;
+    border-radius: 5px;
+    color: #666;
+    padding: 5px;
+    font-family: 'Quicksand', sans-serif;
+    
+ 
+}
+
+input:focus,select:focus,textarea:focus {
+    outline: none;
+    
+    
+
+}
+
+/* RESTAURANT 1 //////////////////// */
+/* header/footer */
+#rest1 header {
+    background:#e64a4a;
+    border-bottom: solid 5px #f25858;
+}
+
+#rest1 footer {
+    background: #e64a4a;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* footer subnav */
+#rest1 .homeIcon {
+    margin-left: 55px;
+}
+
+#rest1 .specialsIcon {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+#rest1 .logo {
+    width: 80%;
+    height: auto;
+    margin: 15px 0;
+}
+
+/* home */
+#rest1 .bar {
+    background: red;
+    padding: 3px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+
+/* reservations */
+#rest1 input,#rest1 select, #rest1 textarea{
+    border-color:red;
+    
+}
+#rest1 input:focus,#rest1 select:focus,#rest1 textarea:focus {
+   background: #f7fbef;
+    
+}
+#rest1 .reserve{
+    height: 30px;
+    width: 120px;
+    border-style: solid;
+    background: red;
+    color:#FFF;
+    border-color: white;
+    padding-top: 4px;
+    font-size: 18px;
+    margin-top: 15x;
+    font-family: 'Hammersmith One', sans-serif !important;
+    
+    
+    
+    
+}

@@ -1,0 +1,471 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    
+    <!-- meta tag to make sure content is same width as device and not scalabl -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <title>Final Assesment</title>
+    
+    <!-- link to fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    
+    <!-- link to css files -->
+    <link rel="stylesheet" href="css/main.css">
+    
+    <!-- link to js files -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+</head>
+    
+<body>
+    <!-- MENU -->
+    <main id="menu">
+        <div class="menuHeader">FAMILY OF EATERIES</div>
+        <div id="backToLanding" class="menuBtn"><img src="img/home_icon.svg" alt="Home" /><span>About  Restaurant</span></div>
+        <div id="contact" class="menuBtn"><img src="img/contact_icon.svg" alt="Contact" /><span>Contact Family of Eateries</span></div>
+        <div id="about" class="menuBtn"><img src="img/about_icon.svg" alt="About" /><span>About Family of Eateries</span></div>
+    </main>
+    <!-- SPLASH SCREEN -->
+    <main id="splash">
+        <div class="splashHeader">FAMILY OF EATERIES</div>
+        <img src="img/foe_logo.svg" alt="Family of Eateries" />
+        <div class="splashFooter"></div>
+    </main>
+    <!-- LANDNG SCREEN -->
+    <main id="landing">
+        <div class="landingHeader">
+        <h11>Take a Tour</h11>
+        </div>
+        <div id="logo1" class="landingLogos">
+    
+            <img class="first" src="img/harman.svg" alt="crispy" />
+           
+        </div>
+        
+        <div class="landingFooter"></div>
+    </main>
+    <!-- RESTAURANT-->
+    <main id="rest1" class="rest">
+        <header>
+             <img class="hamburger" data-click-state="1" src="img/hamburger.png" alt="Menu" />
+            <h1>Crispy`s</h1>
+         
+        </header>
+        <!-- HOME -->
+        <section class="home">
+            <div class="sectionContainer  reveal" >
+                
+                <h1>WELCOME TO CRISPY'S</h1>
+                 <div> <img class="homeImgs" src="img/02.jpg" alt="Home" /></div>
+                <div>  <h2>About </h2> <img class="homeImg1" src="img/image1.jpg" alt="Home" />
+            </div>
+                    <div> <h3>Gallery </h3>   <img class="homeImg2  reveal" src="img/image6.jpg" alt="Home" />   </div>
+           
+            <div> <img class="burger    reveal" src="img/image7.jpg" alt="Home"/></div>
+              <div> <div> <img class="slad     reveal" src="img/gallery4.jpg" >       </div> <img class="homeImg4     reveal" src="img/gallery2.jpg" ></div>
+                </div>
+            <div> <img class="opening     reveal" src="img/opening_hours.jpg" ></div>
+                     </section>
+        <!-- HOME -->
+        <section class="specials">
+            <div class="sectionBanner"> <span style="color:red"> SPECIALS</span></div>
+    
+                <div class="nightContainer reveal">
+                 <img class="altImg" src="img/specials.jpg"/>
+                   <div class="paragraph   reveal" >
+                       <li><span style="color:red">$5.99 Specials </span> </li>
+                       <li><span style="color:red">Crispy calamari</span> </li> 
+                       <li><span style="color:red">Salad</span></li>
+                       <li><span style="color:red"> Sausage </span> </li>
+                       <li><span style="color:red">Spinach  </span></li>
+            </div>    </div>
+                <div class="nightContainer2 reveal">
+                    <img  class="image"  src="img/specials%2023.jpg"/>
+                    <div class="paragraph2   reveal" ></div>
+                
+                    <li><span style="color:red">$6 Specials </span> </li>
+                    <li><span style="color:red">Andouille Mac  </span> </li> 
+                    <li> <span style="color:red">Meatloaf </span></li>
+                    <li><span style="color:red">Fish & Chips </span></li>
+                    <li><span style="color:red">Sausage </span></li>
+                        
+            </div>
+            <div class="nightContainer3 reveal">
+                    <img  class="imagemy"  src="img/specialmy.jpg"/>
+                    <div class="paragraph3   reveal" ></div>
+                
+                <li><span style="color:red">$4.99 Specials </span> </li>
+                <li><span style="color:red">Beef Burger </span> </li> 
+                <li><span style="color:red"> Cheese burger </span></li>
+                <li> <span style="color:red">chicken burger</span> </li>
+                <li><span style="color:red">Burger combo</span> </li>
+                        
+            </div>
+       
+        </section>
+        <!-- HOME -->
+        <section class="reservations">
+            <div class="sectionBanner"><span style="color:red"> RESERVATIONS</span></div>
+            <div class="sectionContainer">
+                
+                <h2 class="reveal"><span style="color:red"> Fill in the form below:</span></h2>
+            
+                <form>
+                <p class="reveal">
+                    
+                    <label   for="name">Name*</label>
+                    <input     type="text"  name="name"   placeholder="First and last name"/>
+                    
+                    </p>
+                    <p class="reveal">
+                    
+                    <label   for="phone">Phone*</label>
+                    <input     type="text"  name="phone"   placeholder="(123)45676890"/>
+                     </p>
+                    <p class="reveal">
+                    
+                    <label   for="Date">Date*</label>
+                    <input     type="date"  name="date"   placeholder="yyyy-mm-dd"/>
+                    
+                    </p>
+                <p class="reveal">
+                    <label for="time">Time* </label>
+                    <select name="time">
+                        <option>Selet a Time....</option>
+                        <option value="6:00 pm">6:00 pm</option>
+                        <option value="6:30 pm">6:30 pm</option>
+                        <option value="7:00 pm">7:00 pm</option>
+                        <option value="7:30 pm">7:30 pm</option>
+                        <option value="8:00 pm">8:00 pm</option>
+                        <option value="8:30 pm">8:30 pm</option>
+                    </select>
+                    
+                    </p>
+                     <p class="reveal">
+                    <label for="guests">Number of guests </label>
+                    <select name="guests">
+                        <option>Selet  number of guests</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="6+">6+</option>
+                    </select>
+                    
+                    </p>
+                    
+                    <p class="reveal">
+                    
+                    <input  type="submit" name="submit" font size="1px" class="reserve"/>
+                    </p></form>
+         
+            </div>
+        </section>
+        <footer>
+            <div class="homeIcon icons">
+                <img src="img/homeicon.png" alt="Home" />
+                <p>Home</p>
+            </div>
+            <div class="specialsIcon icons">
+                <img src="img/my%20specials.png" alt="Specials" />
+                <p>Specials</p>
+            </div>
+            <div class="reservationsIcon icons">
+                <img src="img/reservationicon.png" alt="Reservations" />
+                <p>Reservations</p>
+            </div>
+        </footer>
+    </main>
+   
+   
+    
+    <script>
+        // hide all main elements except for selected index in brackets
+
+       // $("main:gt(3)").hide();
+        //$("#rest1 section:gt(2)").hide();
+        
+        // hide all main and section divs
+        $("main, section").hide();
+        
+        // animate on the splash screen
+        function loadSplash() {
+            
+            $("#splash").show();
+
+            TweenMax.from("#splash", 0.5, {
+                delay: 0.25,
+                opacity: 0
+            });
+
+            TweenMax.from(".splashHeader", 0.5, {
+                delay: 0.5,
+                y: -$(".splashHeader").outerHeight(),
+                ease: Sine.easeOut
+            });
+
+            TweenMax.from(".splashFooter", 0.5, {
+                delay: 0.5,
+                y: $(".splashFooter").outerHeight(),
+                ease: Sine.easeOut
+            });
+
+            TweenMax.from("#splash img", 0.5, {
+                delay: 1,
+                scale: 0,
+                ease: Back.easeOut
+            });
+
+            TweenMax.to("#splash", 0.5, {
+                delay: 4,
+                opacity: 0,
+                onComplete: loadLanding
+            });
+            
+        }
+        
+        // load the splash screen on startup
+        loadSplash();
+        
+        // animate on the landing screen
+        function loadLanding() {
+            
+            //$("#splash").hide();
+            $("main, section").hide().css({opacity: 1});
+            
+            $("#landing").show();
+            
+            TweenMax.from("#landing", 0.5, {
+                delay: 0.25,
+                opacity: 0
+            });
+
+            TweenMax.from(".landingHeader", 0.5, {
+                delay: 0.5,
+                y: -$(".landingHeader").outerHeight(),
+                ease: Sine.easeOut
+            });
+
+            TweenMax.from(".landingFooter", 0.5, {
+                delay: 0.25,
+                y: $(".landingFooter").outerHeight(),
+                ease: Sine.easeOut
+            });
+
+            TweenMax.from("#logo1", 0.5, {
+                delay: 1,
+                opacity: 0
+            });
+
+            
+            
+            // set up logos to link to related restaurant
+            $("#logo1").click(function() {
+                
+                TweenMax.to("#landing", 0.5, {
+                    opacity: 0,
+                    onComplete: loadRest1
+                });
+                
+            });
+            
+            
+                
+         
+        }
+        
+        // disable loadSplash to load just landing screen
+        //loadLanding();
+        
+        // animate on the restaurant 1 + home section
+        function loadRest1() {
+            
+            $("#landing").hide();
+            
+            $("#rest1").show();
+
+            TweenMax.from("#rest1 header", 0.5, {
+                delay: 0.25,
+                y: -$("#rest1 header").outerHeight(),
+                ease: Sine.easeOut
+            });
+
+            TweenMax.from("#rest1 footer", 0.5, {
+                delay: 0.25,
+                y: $("#rest1 footer").outerHeight(),
+                ease: Sine.easeOut
+            });
+            
+            $("#rest1 .home").show();
+
+            TweenMax.from("#rest1 .home", 0.5, {
+                delay: 0.75,
+                opacity: 0
+            });
+            
+            $("#rest1 .home .reveal").each(function(i) {
+                
+                TweenMax.from(this, 1, {
+                    delay: 1.25 + i * 0.25,
+                    opacity: 0,
+                    y: -10,
+                    ease: Elastic.easeOut
+                });
+                
+            });
+            ///highlight home icon
+            
+            $("#rest1 .homeIcon").css({background: 'yellow'});
+            
+            
+            $("#rest1 .homeIcon").click(function(){
+                
+                
+                
+                
+                 $(".icons").css({background: 'none'}); 
+                $("#rest1 .homeIcon").css({background: 'yellow'});
+             loadSection("#rest1 section", "#rest1 .home");
+                
+                
+            });
+            $("#rest1 .specialsIcon").click(function(){
+                
+               
+                 $(".icons").css({background: 'none'}); 
+                $(this).css({background: 'yellow'});
+             loadSection("#rest1 section", "#rest1 .specials");
+                
+                
+            });
+            $("#rest1 .reservationsIcon").click(function(){
+                
+                
+                
+                
+                 $(".icons").css({background: 'none'}); 
+                $(this).css({background: 'yellow'});
+             loadSection("#rest1 section", "#rest1 .reservations");
+                
+                
+            });
+            
+        }
+        
+             function  loadSection(prevSection,nextSection){
+                TweenMax.to(prevSection,0.5,{
+                opacity:0,
+                onComplete:function(){
+                    
+                 $(prevSection).hide().css({opacity: 1});
+                 $(nextSection).show().scrollTop(0);
+                    
+                }
+           
+            });
+     
+            
+            TweenMax.from(nextSection,0.5,{
+                delay:0.5,
+                opacity:0
+            });
+            
+            $(nextSection +  " .reveal").each(function(i) {
+                
+                TweenMax.from(this, 1, {
+                    delay: 1 + i * 0.25,
+                    opacity: 0,
+                    y: -10,
+                    ease: Elastic.easeOut
+                });
+            });
+            
+        }
+        
+        
+        //set up hamburger menu to reveal
+                  
+                  $(".hamburger").click(function(){
+
+               if($(this).attr("data-click-state") == 1){
+                  $("#menu").show();
+
+                   $(this).attr("data-click-state",0);
+
+                   $(this).attr("src" , "img/hamburger22.gif");
+
+                   TweenMax.to(".rest", 0.5,{
+                       x: 310,
+                       ease: Sine.easeOut
+                     
+                   });
+
+
+               }  else{
+
+               $(this).attr("data-click-state",1);
+                $(this).attr("src" , "img/hamburger22.gif");
+                
+                   TweenMax.to(".rest",0.5,{
+                       x: 0,
+                       ease: Sine.easeOut,
+                       onComplete: function(){
+                           
+                           $("#menu").hide();
+                       }
+                     
+                   });
+
+
+               }
+
+
+                  });
+        
+        //set up menu links
+        $("#backToLanding").click(function(){
+
+
+               $(".hamburger").attr("data-click-state",1);
+                $(".hamburger").attr("src" , "img/hamburger22.gif");
+                
+                   TweenMax.to(".rest",0.5,{
+                       x: 0,
+                       ease: Sine.easeOut,
+                       onComplete: function(){
+                              TweenMax.to("main",0.5,{
+                              opacity: 0,
+                              onComplete: loadLanding
+                       });
+                           
+                           
+                           
+                       }
+                     
+                   });
+       });
+        
+        $("#contact").click(function(){
+
+           alert("contact family of eateries");
+
+       });
+         $("#about").click(function(){
+
+           alert("about family of eateries");
+
+       });
+        
+        
+        
+    </script>
+</body>
+
+</html>
